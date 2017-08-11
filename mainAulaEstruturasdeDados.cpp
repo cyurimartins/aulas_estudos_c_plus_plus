@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
 	int existe=0, posicao;
 	float resultado=0;
 	
-	while(opcao!=4) {
+	while(opcao!=4 && opcao<5) {
 		cout<<"\n 1 - Cadastrar"<<endl; 
 		cout<<"\n 2 - Exibir"<<endl;
 		cout<<"\n 3 - Venda"<<endl;
