@@ -23,9 +23,9 @@ int main(){
 
     cout << "\nA expressão eh: "<<a<<"²"<<b<<"x+"<<c<<"=0";
 
-    resp1 = (-b + sqrt((pow(b,2)) - (4*a*c)))/2*a;
+    resp1 = (-b + sqrt((pow(b,2)) - (4*a*c)))/(2*a);
 
-    resp2 = (-b - sqrt((pow(b,2)) - (4*a*c)))/2*a;
+    resp2 = (-b - sqrt((pow(b,2)) - (4*a*c)))/(2*a);
 
 
     cout << "\nx1: "<<resp1<<endl;
