@@ -30,12 +30,7 @@ int main(){
 
     cout << "\nx1: "<<resp1<<endl;
 
-    cout << "\nx2: "<<resp2<<endl;
-
-
-    test = pow(b,2);
-
-    cout <<"\n"<< test;
+    cout << "\nx2: "<<resp2<<endl;   
 
 
     return 0;
